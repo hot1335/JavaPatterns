@@ -13,8 +13,8 @@ public class LazySingleton {
     // 创建私有构造方法
     private  LazySingleton() {}
 
-    // 对外提供访问
-    public static LazySingleton getInstance() {
+    // 对外提供访问 ， synchronized 确保线程安全
+    public static synchronized LazySingleton getInstance() {
         if (instance == null) {
             instance = new LazySingleton();
         }
