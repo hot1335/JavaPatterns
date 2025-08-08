@@ -1,4 +1,4 @@
-package biz.baijing.factory;
+package biz.baijing.factory.simplefactory;
 
 /**
  * 工厂模式

@@ -1,4 +1,4 @@
-package biz.baijing.factory;
+package biz.baijing.factory.originalmode;
 
 /**
  * 工厂模式 - 测试
