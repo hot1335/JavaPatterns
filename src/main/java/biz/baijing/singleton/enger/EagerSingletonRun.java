@@ -1,5 +1,10 @@
 package biz.baijing.singleton.enger;
 
+/**
+ * 入口程序
+ * @version 0.1
+ * @author  BaiJing.biz
+ */
 public class EagerSingletonRun {
     public static void main(String[] args) {
 

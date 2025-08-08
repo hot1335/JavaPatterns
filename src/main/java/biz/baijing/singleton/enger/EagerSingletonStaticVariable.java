@@ -1,5 +1,10 @@
 package biz.baijing.singleton.enger;
 
+/**
+ * 单例模式 - 饿汉式 ： 静态变量
+ * @version 0.1
+ * @author  BaiJing.biz
+ */
 public class EagerSingletonStaticVariable {
 
     // 创建本类对象
@@ -13,6 +18,7 @@ public class EagerSingletonStaticVariable {
         return instance;
     }
 
+    // 实例调用的测试方法
     public void showSu() {
         System.out.println("EagerSingletonStaticVariable");
     }
