@@ -12,18 +12,18 @@ public class MilkTeaStore {
         // 声明口味变量，声明子类对象
         MilkTea milkTea = null;
 
-        if(milkTea == null){
-            throw  new RuntimeException("输入的口味不对。");
-        }
-
         if(taste.equals("tai")){
             milkTea = new TaiMilkTea();
         }else if(taste.equals("lu")){
             milkTea = new LuMilkTea();
         }
 
+        if(milkTea == null){
+            throw  new RuntimeException("输入的口味不对。");
+        }
+
         milkTea.addMilk();
-        milkTea.addMilk();
+        milkTea.addSuger();
 
         return milkTea;
     }

@@ -8,5 +8,12 @@ package biz.baijing.factory;
 public class ConsumerRun {
     public static void main(String[] args) {
 
+        MilkTeaStore store = new MilkTeaStore();
+
+        MilkTea milkTea = store.orderMilkTea("lu");
+
+
+        System.out.println(milkTea.getName());
+
     }
 }
