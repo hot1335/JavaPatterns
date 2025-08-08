@@ -12,7 +12,7 @@ public class ConsumerRun {
 
         MilkTeaStore store = new MilkTeaStore();
 
-        MilkTea milkTea = store.OrderMilkTea("lu");
+        MilkTea milkTea = store.OrderMilkTea("tai");
 
         System.out.println(milkTea.getName());
 

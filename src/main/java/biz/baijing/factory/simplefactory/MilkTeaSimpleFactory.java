@@ -11,7 +11,8 @@ import biz.baijing.factory.originalmode.TaiMilkTea;
  */
 public class MilkTeaSimpleFactory {
 
-    public MilkTea initMilkTea(String taste){
+    // 静态方法 static 修饰后，在 MilkTeaStore 无需声明直接使用该类即可
+    public static MilkTea initMilkTea(String taste){
 
         MilkTea milkTea = null;
 

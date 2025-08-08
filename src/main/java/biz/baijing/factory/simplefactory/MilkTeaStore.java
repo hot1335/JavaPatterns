@@ -6,9 +6,11 @@ public class MilkTeaStore {
 
     public MilkTea OrderMilkTea(String taste){
 
-        MilkTeaSimpleFactory factory = new MilkTeaSimpleFactory();
+/*        MilkTeaSimpleFactory factory = new MilkTeaSimpleFactory();
 
-        MilkTea milkTea = factory.initMilkTea(taste);
+        MilkTea milkTea = factory.initMilkTea(taste);*/
+
+        MilkTea milkTea = MilkTeaSimpleFactory.initMilkTea(taste);
 
         milkTea.addMilk();
         milkTea.addSuger();
