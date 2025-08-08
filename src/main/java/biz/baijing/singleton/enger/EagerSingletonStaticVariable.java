@@ -1,4 +1,4 @@
-package biz.baijing.singleton;
+package biz.baijing.singleton.enger;
 
 public class EagerSingletonStaticVariable {
 
