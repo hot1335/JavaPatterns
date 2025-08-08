@@ -6,5 +6,6 @@ package biz.baijing.singleton.enumpattern;
  * @author  BaiJing.biz
  */
 public enum SingletonEnum {
+    // 枚举类型属于饿汉式
     INSTANCE;
 }
