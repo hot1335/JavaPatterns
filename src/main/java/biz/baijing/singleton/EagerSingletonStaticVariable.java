@@ -13,4 +13,8 @@ public class EagerSingletonStaticVariable {
         return instance;
     }
 
+    public void showSu() {
+        System.out.println("EagerSingletonStaticVariable");
+    }
+
 }

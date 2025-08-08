@@ -9,5 +9,7 @@ public class EagerSingletonRun {
 
         System.out.println(instance == instance1 );
 
+        instance.showSu();
+
     }
 }
