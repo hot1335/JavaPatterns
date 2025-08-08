@@ -14,6 +14,18 @@ public class LazySingletonRun {
 
         System.out.println(instance==instance1);
 
+        LazySingleton instance2 = LazySingleton.getInstanceDCL();
+
+        LazySingleton instance3 = LazySingleton.getInstanceDCL();
+
+        System.out.println(instance==instance3);
+
+        System.out.println(instance2==instance3);
+
+        LazySingletonStaticNestedClass instance4 = LazySingletonStaticNestedClass.getInstance();
+        LazySingletonStaticNestedClass instance5 = LazySingletonStaticNestedClass.getInstance();
+        System.out.println(instance4==instance5);
+
 
     }
 }
