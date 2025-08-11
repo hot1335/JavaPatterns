@@ -1,7 +1,7 @@
 package biz.baijing.prototype;
 
 /**
- * 原型模式 - 浅克隆 : 毕业证案例
+ * 原型模式 - 浅克隆 shallow copy : 毕业证案例
  * @version 0.1
  * @author  BaiJing.biz
  */
