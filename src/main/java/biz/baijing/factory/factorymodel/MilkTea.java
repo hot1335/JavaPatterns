@@ -1,7 +1,7 @@
 package biz.baijing.factory.factorymodel;
 
 /**
- * 工厂模式
+ * 工厂模式 - 获取名字
  * @version 0.1
  * @author  BaiJing.biz
  */
