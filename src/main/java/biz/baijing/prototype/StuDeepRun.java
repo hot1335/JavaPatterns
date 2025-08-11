@@ -1,12 +1,14 @@
 package biz.baijing.prototype;
 
+import java.io.*;
+
 /**
  * 原型模式 - 深克隆 deep copy
  * @version 0.1
  * @author  BaiJing.biz
  */
 public class StuDeepRun {
-    public static void main(String[] args) throws CloneNotSupportedException {
+    public static void main(String[] args) throws CloneNotSupportedException, IOException, ClassNotFoundException {
 
         DiplomaDeep diploma = new DiplomaDeep();
 
@@ -15,12 +17,19 @@ public class StuDeepRun {
 
         diploma.setStudent(student);
 
-        Diploma clone = diploma.clone();
-        diploma.getStudent().setName("John");
-
         diploma.show();
 
-        clone.show();
+        // 深克隆
+        ObjectOutputStream oos  = new ObjectOutputStream(new FileOutputStream("/Users/tree/javasrc/testfile/a.txt"));
+        oos.writeObject(diploma);
+        oos.close();
 
+        ObjectInputStream ois = new ObjectInputStream(new FileInputStream("/Users/tree/javasrc/testfile/a.txt"));
+        DiplomaDeep clone = (DiplomaDeep)ois.readObject();
+        ois.close();
+
+        clone.getStudent().setName("John");
+
+        clone.show();
     }
 }

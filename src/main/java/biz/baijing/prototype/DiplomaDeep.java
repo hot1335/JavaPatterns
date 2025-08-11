@@ -1,11 +1,13 @@
 package biz.baijing.prototype;
 
+import java.io.Serializable;
+
 /**
  * 原型模式 - 深克隆 deep copy
  * @version 0.1
  * @author  BaiJing.biz
  */
-public class DiplomaDeep implements Cloneable {
+public class DiplomaDeep implements Cloneable , Serializable {
 
     private Student student;
 

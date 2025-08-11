@@ -1,11 +1,13 @@
 package biz.baijing.prototype;
 
+import java.io.Serializable;
+
 /**
  * 原型模式 - 深克隆 : 毕业证案例
  * @version 0.1
  * @author  BaiJing.biz
  */
-public class Student {
+public class Student implements Serializable {
 
     private String name;
 
