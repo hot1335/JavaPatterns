@@ -13,7 +13,7 @@ public class MilkTeaStore {
         this.factory = factory;
     }
 
-    public MilkTea OrderMilkTea(String taste){
+    public MilkTea orderMilkTea(){
 
         MilkTea milkTea = factory.createMilkTea();
 
