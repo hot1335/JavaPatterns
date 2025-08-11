@@ -8,6 +8,6 @@ package biz.baijing.factory.abstractfactory;
 public class LuMilkTea extends MilkTea {
     @Override
     public String getName() {
-        return "鹿角奶茶 ^ - ^";
+        return "鹿角奶茶 | 慕斯 ^ - ^";
     }
 }
