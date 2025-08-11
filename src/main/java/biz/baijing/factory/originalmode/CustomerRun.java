@@ -5,7 +5,7 @@ package biz.baijing.factory.originalmode;
  * @version 0.1
  * @author  BaiJing.biz
  */
-public class ConsumerRun {
+public class CustomerRun {
     public static void main(String[] args) {
 
         MilkTeaStore store = new MilkTeaStore();
