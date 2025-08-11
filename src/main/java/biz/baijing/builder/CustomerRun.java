@@ -14,6 +14,6 @@ public class CustomerRun {
 
         System.out.println(d.getLightstand());
         System.out.println(d.getLightswitch());
-        
+
     }
 }
