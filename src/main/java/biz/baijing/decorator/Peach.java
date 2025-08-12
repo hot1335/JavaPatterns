@@ -14,7 +14,7 @@ public class Peach extends DecoratorClass {
 
     @Override
     public int cost() {
-        return getPrice() + getCake().getPrice();
+        return super.getPrice() + getCake().getPrice();
     }
 
     @Override
