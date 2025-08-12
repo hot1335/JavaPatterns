@@ -21,7 +21,7 @@ public class ProxyFactory {
                JDK 提供了 proxy 类，用于动态代理用于创建代理对象的方法
                newProxyInstance 有三个参数：
                     - ClassLoader loader ： 类加载器，加载代理类，通过目标对象获取
-                    - Class<?>[] interfaces ：代理类实现的接口的自解码对象
+                    - Class<?>[] interfaces ：代理类实现的接口的字节码对象
                     - InvocationHandler h ： 代理对象的调用处理方法
          */
         Trade proxyObject = (Trade) Proxy.newProxyInstance(
