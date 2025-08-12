@@ -3,14 +3,20 @@ package biz.baijing.decorator;
 public class CustomerRun {
     public static void main(String[] args) {
 
-        ShoutaoCake shoutaoCake = new ShoutaoCake();
+//        ShoutaoCake shoutaoCake = new ShoutaoCake();
 
-        System.out.println(shoutaoCake.getName() +" - " + shoutaoCake.cost());
+        Cake cake = new ShoutaoCake();
 
-        // 寿桃蛋糕，增加 Apple
-        Apple apple = new Apple(shoutaoCake);
 
-        System.out.println(apple.getName() +" - " + apple.cost());
+        System.out.println(cake.getName() +" - " + cake.cost());
+
+        cake = new Apple(cake);
+        System.out.println(cake.getName() +" - " + cake.cost());
+
+        cake = new Peach(cake);
+        System.out.println(cake.getName() +" - " + cake.cost());
+
+        
 
     }
 }

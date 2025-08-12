@@ -18,7 +18,7 @@ public class Peach extends DecoratorClass {
     }
 
     @Override
-    public String getDesc() {
-        return super.getDesc() + getCake().getDesc();
+    public String getName() {
+        return super.getName() + getCake().getName();
     }
 }
