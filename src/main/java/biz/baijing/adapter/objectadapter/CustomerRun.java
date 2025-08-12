@@ -10,8 +10,8 @@ public class CustomerRun {
 
         System.out.println("适配器模式");
 
-        String ide_sata_data = harddiskBox.readIDE(new IDEAdapterSata());
-        System.out.println(ide_sata_data);
-
+        // 读取 SATA 数据
+        String data = harddiskBox.readIDE(new IDEAdapterSata(new SataHDImpl()));
+        System.out.println(data);
     }
 }
