@@ -1,6 +1,6 @@
 package biz.baijing.memento.blackmethod;
 
-
+// 黑箱子
 public class CustomerRun {
     public static void main(String[] args) {
 

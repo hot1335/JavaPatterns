@@ -2,7 +2,7 @@ package biz.baijing.memento.blackmethod;
 
 
 /**
- * 备忘录模式 - 发起人 ： 游戏角色类
+ * 备忘录模式 黑箱子 - 发起人 ： 游戏角色类
  * @version 0.1
  * @author  BaiJing.biz
  */
