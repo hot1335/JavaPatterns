@@ -8,7 +8,7 @@ public class CustomerRun {
         Department d2 = new Organize("IT技术部",2);
         d2.add(new OranizeNode("前端开发",3));
 
-        
+
 
     }
 }
