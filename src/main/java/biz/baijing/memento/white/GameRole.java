@@ -1,4 +1,4 @@
-package biz.baijing.memento.black;
+package biz.baijing.memento.white;
 
 /**
  * 备忘录模式 - 发起人 ： 游戏角色类

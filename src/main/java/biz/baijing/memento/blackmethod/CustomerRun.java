@@ -1,4 +1,5 @@
-package biz.baijing.memento.black;
+package biz.baijing.memento.blackmethod;
+
 
 public class CustomerRun {
     public static void main(String[] args) {
@@ -12,7 +13,7 @@ public class CustomerRun {
 
         // 备份数据
         RoleMementoCaretaker roleMementoCaretaker = new RoleMementoCaretaker();
-        roleMementoCaretaker.setRoleParameterMemento(gameRole.saveParameter());
+        roleMementoCaretaker.setMemento(gameRole.saveParameter());
 
         System.out.println("======== 大战 ========");
 
@@ -22,7 +23,7 @@ public class CustomerRun {
         System.out.println("======== 回血 ========");
 
         // 通过备忘录恢复
-        gameRole.recoverParameter(roleMementoCaretaker.getRoleParameterMemento());
+        gameRole.recoverParameter(roleMementoCaretaker.getMemento());
         gameRole.parameterShow();
 
 
