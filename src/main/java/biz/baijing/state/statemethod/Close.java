@@ -1,4 +1,4 @@
-package biz.baijing.state.statemachine;
+package biz.baijing.state.statemethod;
 
 /**
  * 状态模式 - 抽象类 : 关闭状态类

@@ -1,4 +1,4 @@
-package biz.baijing.state.statemachine;
+package biz.baijing.state.statemethod;
 
 public class CustomerRun {
     public static void main(String[] args) {

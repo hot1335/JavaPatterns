@@ -1,4 +1,4 @@
-package biz.baijing.state.statemachine;
+package biz.baijing.state.statemethod;
 
 /**
  * 状态模式 - 环境类
